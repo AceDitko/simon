@@ -165,12 +165,6 @@ while running:
             pygame.draw.polygon(screen, (0, 0, 189), ((480, 115), (325, 270), (480, 425)))
         if mouse_in_polygon(triangles["yellow"], mouse):
             pygame.draw.polygon(screen, (189, 178, 0), ((165, 430), (320, 275), (475, 430)))
-
-    
-            
-    
-    
-        
     
     pygame.display.flip()
     delta_time = clock.tick(60)
